@@ -988,6 +988,32 @@ var App = function (_React$Component) {
                             "Hello"
                         )
                     )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { "class": "col s12 m8 offset-m2 l6 offset-l3" },
+                    _react2.default.createElement(
+                        "div",
+                        { "class": "card-panel grey lighten-5 z-depth-1" },
+                        _react2.default.createElement(
+                            "div",
+                            { "class": "row valign-wrapper" },
+                            _react2.default.createElement(
+                                "div",
+                                { "class": "col s2" },
+                                _react2.default.createElement("img", { src: "../app/prof.jpg", alt: "", "class": "circle responsive-img" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "class": "col s10" },
+                                _react2.default.createElement(
+                                    "span",
+                                    { "class": "flow-text" },
+                                    "Some stuff here."
+                                )
+                            )
+                        )
+                    )
                 )
             );
         }
